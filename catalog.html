@@ -43,20 +43,31 @@
       <h1 class="inner-title">Гостиницы Седоны</h1>
         <a class="visually-hidden" href="index.html">Главная</a>
         <a class="breadcrumbs">Гостиницы</a>
+        <form action="https://echo.htmlacademy.ru/" method="post">
           <fieldset class="filter-group">
             <legend class="filter-group-title">Инфраструктура:</legend>
-              <label><input type="checkbox" checked>Бассейн</label>
-              <label><input type="checkbox" checked>Парковка</label>
-              <label><input type="checkbox">Wi-Fi</label>
+              <label><input type="checkbox" name="Swimming-pool" checked>Бассейн</label>
+              <label><input type="checkbox" name="Parking" checked>Парковка</label>
+              <label><input type="checkbox" name="Wi-Fi">Wi-Fi</label>
           </fieldset class="filter-group">
-            <legend class="filter-group-title">Тип жилья:</legend>
-              <label><input type="radio" checked>Гостиница</label>
-              <label><input type="radio">Мотель</label>
-              <label><input type="radio">Апартаменты</label>
           <fieldset>
-
+            <legend class="filter-group-title">Тип жилья:</legend>
+              <label><input type="radio" name="Hotel" checked>Гостиница</label>
+              <label><input type="radio" name="Hotel">Мотель</label>
+              <label><input type="radio" name="Hotel">Апартаменты</label>
           </fieldset>
-
+        </form>
+        <button type="submit">Применить</button>
+        <button type="reset">Сбросить</button>
+    </section>
+    <section class="catalog">
+      <h2 class="catalog-title">Найдено гостиниц: 38</h2>
+        <select class="select" aria-label="Сортировка">
+          <option value="cheap">Сначала дешёвые</option>
+        </select>
+        <article class="catalog-item">
+          <img src="#" alt="">
+        </article>
     </section>
   </main>
   <footer class="inner-footer">

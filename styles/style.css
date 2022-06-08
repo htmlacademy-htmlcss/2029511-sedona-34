@@ -15,6 +15,7 @@
 }
 
 body {
+  margin: 0;
   font-family: "PT Sans" sans-serif;
   font-size: 22px;
   line-height: 26px;
@@ -35,6 +36,11 @@ body {
   font-weight: 700;
 }
 
+.main-index {
+  background-image: url(/images/header-image.jpg);
+  background-repeat: no-repeat;
+}
+
 /* Преимущества */
 .advantages-intro {
   background-color: #FFFFFF;
@@ -45,16 +51,51 @@ body {
   font-size: 30px;
   line-height: 36px;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .heading-3 {
   font-size: 24px;
   line-height: 28px;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .advantages-description {
   font-size: 18px;
   line-height: 21px;
   text-align: center;
+}
+
+.advantages-item-highlighted-container {
+  background-color: #82B3D3;
+
+}
+
+.advantages-item-image {
+  display: block;
+}
+
+
+/* Поиск */
+.search {
+  background-color: #FFFFFF;
+}
+.search-description {
+  text-align: center;
+}
+
+/* Рассылка */
+.subscribe {
+  background-image: url(/images/subscribe.jpg)
+}
+
+.subscribe-description {
+  text-align: center;
+}
+
+/* Подвал */
+.page-footer {
+  background-color: #FFFFFF;
+  color: #000000;
 }

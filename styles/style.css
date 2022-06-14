@@ -23,7 +23,8 @@ body {
   background-color: #E5E5E5;
 }
 
-/* Header */
+
+/* Pages */
 .page-header {
   background-color: #FFFFFF;
   color: #000000;
@@ -34,18 +35,21 @@ body {
   color: #000000;
   text-decoration: none;
   font-weight: 700;
+  background-color: #FFFFFF;
 }
 
-.main-index {
+.welcome {
   background-image: url(/images/header-image.jpg);
   background-repeat: no-repeat;
 }
 
-/* Преимущества */
+/* Advantages */
 .advantages-intro {
   background-color: #FFFFFF;
   text-align: center;
 }
+
+
 
 .heading-2 {
   font-size: 30px;
@@ -76,8 +80,20 @@ body {
   display: block;
 }
 
+.advantages-item-second-1 {
+  background-color: rgba(131, 179, 211, 0.12);
+}
 
-/* Поиск */
+.advantages-item-second-2 {
+  background-color: rgba(131, 179, 211, 0.2);
+}
+
+.advantages-item-centered {
+  background-color: #FFFFFF;
+
+}
+
+/* Search */
 .search {
   background-color: #FFFFFF;
 }
@@ -85,16 +101,18 @@ body {
   text-align: center;
 }
 
-/* Рассылка */
+
+/* Subcribe */
 .subscribe {
-  background-image: url(/images/subscribe.jpg)
+  background-image: url(/images/subscribe.jpg);
+  background-repeat: no-repeat;
 }
 
 .subscribe-description {
   text-align: center;
 }
 
-/* Подвал */
+/* Footer */
 .page-footer {
   background-color: #FFFFFF;
   color: #000000;

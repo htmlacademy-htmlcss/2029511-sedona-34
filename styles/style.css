@@ -90,14 +90,11 @@ body {
 
 .advantages-item-centered {
   background-color: #FFFFFF;
-
 }
 
 /* Search */
 .search {
   background-color: #FFFFFF;
-}
-.search-description {
   text-align: center;
 }
 
@@ -106,9 +103,6 @@ body {
 .subscribe {
   background-image: url(/images/subscribe.jpg);
   background-repeat: no-repeat;
-}
-
-.subscribe-description {
   text-align: center;
 }
 
@@ -116,4 +110,17 @@ body {
 .page-footer {
   background-color: #FFFFFF;
   color: #000000;
+}
+
+footer-adress {
+  font-style: normal;
+}
+
+.footer-contacts-phone {
+  font-size: 40px;
+  line-height: 40px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #000000;
+  text-decoration: none;
 }

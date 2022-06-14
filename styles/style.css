@@ -124,3 +124,38 @@ footer-adress {
   color: #000000;
   text-decoration: none;
 }
+
+/* Button */
+.button {
+  text-align: center;
+  border-radius: 4px;
+  font-family: inherit;
+  color: #FFFFFF;
+}
+.button-basic-color {
+  background-color: #756157;
+}
+
+.button-secondary-color {
+  background-color: #82B3D3;
+}
+
+.subscribe-button {
+  border-radius: 0px 10px 10px 0px;
+}
+
+button-small {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.button-big {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+/* Catalog */
